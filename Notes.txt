@@ -1,0 +1,222 @@
+Idea Next project ::::::::::::Each keydwon clicked display on a screen some image from simbols
+
+ON the future when i am on a interview talk about the clean code that i apply
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Transforming the functions and links dom manipulation to become a property ou methods into some object
+modal EX1.js
+        2
+        3
+        
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+Ways to make events 
+
+:::::Event::::::nameSpecificEvent
+      Doenst provide execute a lot of times in diferents modules 
+      Will just execute one time  at moment are the last 
+
+:::::Event::::::addEventListener
+      provide execute a lot of times in !== modules 
+
+:::::simple::::function just one line:::::::
+
+        variable.nameSpecificEvent = () => ModalNameObject.method() 
+
+:::::arrow function ::::function more than just one line
+
+        variable.nameSpecificEvent = (a, b ) => {
+          // step by step 
+          // step by step 
+        }
+
+
+::::::function more reliageble 
+
+        variable.nameSpecificEvent = Name_Function
+
+        function Name_Function(parameter1 , parameter2 ){
+          // step by step 
+        }
+
+
+Using tag script into the block head used defer to just execute it after loaded all elements into the block body tag
+
+It will put in withing the elements together on a center all content
+
+label must be display in block to make margin from the input 
+
+#VERSION 1.0
+
+  #EVENT   
+
+  after click on the button CALCULAR O MEU IMC
+    have the result 
+    show result
+    show modal 
+    button turn off modal 
+
+
+
+    document = objecto global
+    visibility:hidden; change DOM manipulation 
+
+    New code learned
+    Pseudoclasses css
+
+    div::placeholder{
+      color ---
+    }
+
+
+     transition: background-color .3s;
+
+    create one classes on the css 
+    you made first screen 
+    After
+    edit named that classe into the html to other screen
+
+        
+    /*Modal*/
+
+    .modal-wrapper{
+      position: absolute;
+      /*inset : 0;*/     =    top: 0;  bottom: 0;   right: 0;   left: 0;
+    }
+
+    centralizar 
+
+        margin : 23rem auto;
+        margin-inline: auto;
+
+        display: flex;   justify-content:center ; align-item: center ;
+
+        display:grid; place-content: center;
+
+        display: grid; place-items: center;
+
+    #Modal Strategity
+        creat div .modal for initial opacity : 0 
+        create a class .open with atribute opacty : 1 
+        |    on javaScript DOM manipulation  classList.toggle(open)
+       /\___,have to make on css .modal.open { opacity: 1}   when the class .modal are together .open opacity: 0
+       \_________,.modal-wrapper.open{       it means when the element div have both classes change value atribute
+                    opacity: 1;
+                    visibility: visible;
+                  }
+
+    #POP_UP menssage Strategity
+          position: relative ;   top,right,left : 0;
+          SAME STRATEGITY TO MODAL open
+
+
+    #MODAL MENSASSE POP-UP DOENS'T WORK
+
+      It dont make transition sllowly
+
+#STEP BY STEP SUBMIT 
+    reference form from html into file script as variable
+    form
+    input1
+    input2
+
+    SCRIPT DOM 
+
+    Variable.onEvent = FUNCTION // create events
+    diferent way to make this
+      1#
+        variable.onEvent = function (){   // code }
+      2#
+        variable.onEvent = () => {   // code }
+      3#
+        variable.onEvent = NameFUnction 
+
+        function NameFUnction(){ // code }
+    gets value from inputs
+
+46' CONTEUDO demoro 3h 40'
+
+1H5 conteudo   4 HORAS E 50 MINUTOS praticando
+
+
+Estruturando os dados do Modal
+06:56
+
+  Put all the variables used to make events and their reactions into a object that represents all about MODAL 
+  OBJ ={
+    variables 
+
+   name(){
+    variabels.events 
+   }
+  }
+
+  OBJ = {
+    variables= event points html
+
+    name:fuctions(){
+      OBJ.function_DOM_Manipulation
+    }
+  }
+
+  OBJ.name()
+
+    This Error was the situation even you are ussing the property from object you still must refrence about what OBJ are this actual property  
+
+    wrapper.classList.add("open");
+
+    getted : 78 167
+    modalEx3.js:46 27.97
+    modalEx3.js:19 Used Open
+    modalEx3.js:20  Uncaught ReferenceError: wrapper is not defined
+    at Object.open (modalEx3.js:20:5)
+    at form.onsubmit (modalEx3.js:51:9)
+
+    correct 
+    Go to the OBJ modal and into the function  before atribute wrapper    put     OBJ referencied
+
+    Modal.wrapper.classList.add("open");
+
+
+
+META DE HOJE É FAZER 55 MINUTOS DE CONTEUDOS 
+
+ja fiz 26 minutos desde as 10 horas da manhã  com 20 projetos a mais  começei mesmo umas 15h pra valer até 18h 30'
+
+
+falta 25 minutos   
+
+
+atrazado 3 horas de conteúdo 
+
+
+
+
+
+
+VERSION 1.3
+  Aplayed Design Paterns
+  -Diferent functions in diferent Places 
+  CLOSE MODAL BY CLICKING ON THE KEYBOARD escape  ESC
+
+  Aplying the DOM MANIPULATION
+    objeto_Global.onEvent     it means just will execute on time : the last time this line will interpretaded 
+    OBJ.addEventListener will repeat a lot of times will called 
+
+  Data Validation 
+
+  using the Constructor function that retuns boolean if the date isn't what i am waitting by the user 
+  Used Paterns Design   
+  if its not display that first modal from the html 
+
+
+
+
+faltou ums 9 minutos ---- isso se eu n tivesse feito a tentativa de fazer sozinho 
+need to watch 
+Refatorando a função de submit, aplicando regras de Clean Code
+06:42
+
+
+Desafio
+03:15    

@@ -8,5 +8,6 @@
 ##### V-1.2 - no comments
 ##### V-1.1 - comments
 ##### V-1.1 
+##### V-1.0
 
 # Link [here]( https://thiagomassenomaciel.github.io/Projeto-09-V-1.3--clean---some-comments-front-end.github.io/)

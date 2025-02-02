@@ -1,7 +1,11 @@
 ###### Projeto-09-front-end.github.io
 # Calculadora do Indice de massa Corporal (IMC)
 #### Veja o projeto clicando [aqui]( https://thiagomassenomaciel.github.io/Projeto-09-V-1.3--clean---some-comments-front-end.github.io/)
-
+![image](https://github.com/user-attachments/assets/9ddd3348-285b-4ab7-bf45-d7b8e4865ded)
+##### Cálculo :
+```
+BMI = Weight/ Height* Height    or   IMC = Peso/ Altura²
+```
 ## Versions 
 ##### V-1.3--clean---some-comments | actual repository
 ##### V-1.3 - clean
